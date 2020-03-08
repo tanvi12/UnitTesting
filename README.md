@@ -26,3 +26,7 @@
 
 # Test case result
 ![Screenshot](Screenshot8.png)
+
+
+# Test case coverage
+![Screenshot](Screenshot8.png)

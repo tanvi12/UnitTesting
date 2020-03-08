@@ -16,6 +16,29 @@ class StandartFunctions {
 	}
 	
 	/**
+	 * Check function output not null
+	 */
+	@Test
+	void SinNotNull(){
+		assertNotNull(StandardFunctions.TrigonometricFunctions.Sin(30));
+		assertNotNull(StandardFunctions.TrigonometricFunctions.Sin(90));
+		assertNotNull(StandardFunctions.TrigonometricFunctions.Sin(180));
+		assertNotNull(StandardFunctions.TrigonometricFunctions.Sin(360));
+	}
+	
+	/**
+	 * Check function output not null
+	 */
+	@Test
+	void CosNotNull(){
+		assertNotNull(StandardFunctions.TrigonometricFunctions.Cos(30));
+		assertNotNull(StandardFunctions.TrigonometricFunctions.Cos(90));
+		assertNotNull(StandardFunctions.TrigonometricFunctions.Cos(180));
+		assertNotNull(StandardFunctions.TrigonometricFunctions.Cos(360));
+	}
+	
+	
+	/**
 	 * Compare Math and Taylor series output
 	 */
 	@Test
@@ -37,13 +60,23 @@ class StandartFunctions {
 		assertEquals(Math.tan(360),StandardFunctions.TrigonometricFunctions.Tan(360),0.05);
 	}
 	
+	/**
+	 * Check function output not null
+	 */
+	@Test
+	void TanNotNull(){
+		assertNotNull(StandardFunctions.TrigonometricFunctions.Tan(30));
+		assertNotNull(StandardFunctions.TrigonometricFunctions.Tan(90));
+		assertNotNull(StandardFunctions.TrigonometricFunctions.Tan(180));
+		assertNotNull(StandardFunctions.TrigonometricFunctions.Tan(360));
+	}
 	
 	/**
 	 * Compare radians to Degrees conversion
 	 */
 	@Test
 	void radiansToDegrees(){
-		assertEquals(Math.toDegrees(57.29),StandardFunctions.TrigonometricFunctions.radiansToDegrees(57.29),0.05);
+		assertEquals(Math.toDegrees(57.29),StandardFunctions.TrigonometricFunctions.radiansToDegrees(57.29),0.5);
 	}
 
 }

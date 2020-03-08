@@ -141,40 +141,7 @@ public class StandardFunctions {
 	}
 	public static void main(String args[]) {
 		
-		System.out.println("Sin values in radinas");
-		System.out.println("Sin(30) "+ TrigonometricFunctions.Sin(30));
-		System.out.println("Sin(90) "+ TrigonometricFunctions.Sin(90));
-		System.out.println("Sin(180) "+ TrigonometricFunctions.Sin(180));
-		System.out.println("Sin(270) "+ TrigonometricFunctions.Sin(270));
-		System.out.println("Sin(360)"+ TrigonometricFunctions.Sin(360));
-		System.out.println();
-		
-		System.out.println("Sin values in degree");
-		System.out.println("Sin(30) "+ TrigonometricFunctions.radiansToDegrees(TrigonometricFunctions.Sin(30)));
-		System.out.println("Sin(90) "+ TrigonometricFunctions.radiansToDegrees(TrigonometricFunctions.Sin(90)));
-		System.out.println("Sin(180) "+ TrigonometricFunctions.radiansToDegrees(TrigonometricFunctions.Sin(180)));
-		System.out.println("Sin(270) "+ TrigonometricFunctions.radiansToDegrees(TrigonometricFunctions.Sin(270)));
-		System.out.println("Sin(360)"+ TrigonometricFunctions.radiansToDegrees(TrigonometricFunctions.Sin(360)));
-		System.out.println();
-		
-		
-		
-		System.out.println("Cos values in radinas");
-		System.out.println("Cos(30) "+ TrigonometricFunctions.Cos(30));
-		System.out.println("Cos(90) "+ TrigonometricFunctions.Cos(90));
-		System.out.println("Cos(180) "+ TrigonometricFunctions.Cos(180));
-		System.out.println("Cos(270) "+ TrigonometricFunctions.Cos(270));
-		System.out.println("Cos(360)"+ TrigonometricFunctions.Cos(360));
-		System.out.println();
-		
-		System.out.println("Tan values in radinas");
-		System.out.println("Tan(30) "+ TrigonometricFunctions.Tan(30));
-		System.out.println("Tan(90) "+ TrigonometricFunctions.Tan(90));
-		System.out.println("Tan(180) "+ TrigonometricFunctions.Tan(180));
-		System.out.println("Tan(270) "+ TrigonometricFunctions.Tan(270));
-		System.out.println("Tan(360)"+ TrigonometricFunctions.Tan(360));
-		System.out.println();
-		
+	
 	
 	}
 
