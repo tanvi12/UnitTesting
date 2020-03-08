@@ -1,7 +1,6 @@
 # UnitTesting
 
 # Methods without implementations
-![Screenshot](Screenshot3.png)
 ![Screenshot](ScreenShot1.png)
 
 
