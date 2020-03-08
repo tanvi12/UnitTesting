@@ -28,5 +28,8 @@
 ![Screenshot](Screenshot8.png)
 
 
+# Test case result
+![Screenshot](Screenshot9.png)
+
 # Test case coverage
-![Screenshot](Screenshot8.png)
+![Screenshot](Screenshot10.png)
