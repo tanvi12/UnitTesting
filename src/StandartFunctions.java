@@ -6,17 +6,17 @@ class StandartFunctions {
 
 	@Test
 	void Sin() {
-		assertEquals(1,StandardFunctions.Sin(90),0.05);
+		assertEquals(1,StandardFunctions.Sin(90));
 	}
 	
 	@Test
 	void Cos(){
-		assertEquals(0,StandardFunctions.Cos(90),0.05);
+		assertEquals(1,StandardFunctions.Cos(0));
 	}
 	
 	@Test
 	void Tan(){
-		assertEquals(1,StandardFunctions.Tan(45),0.05);
+		assertEquals(1,StandardFunctions.Tan(45));
 	}
 	
 	
