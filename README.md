@@ -13,8 +13,8 @@
 
 
 # Implemented all the methods
-![Screenshot](ScreenShot5.png)
+![Screenshot](ScreenShot6.png)
 
 
 # Output
-![Screenshot](ScreenShot6.png)
+![Screenshot](ScreenShot5.png)
