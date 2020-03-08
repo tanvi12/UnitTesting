@@ -10,3 +10,11 @@
 
 # Failed test cases
 ![Screenshot](ScreenShot4.png)
+
+
+# Implemented all the methods
+![Screenshot](ScreenShot5.png)
+
+
+# Output
+![Screenshot](ScreenShot6.png)
