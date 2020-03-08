@@ -174,6 +174,8 @@ public class StandardFunctions {
 		System.out.println("Tan(270) "+ TrigonometricFunctions.Tan(270));
 		System.out.println("Tan(360)"+ TrigonometricFunctions.Tan(360));
 		System.out.println();
+		
+	
 	}
 
 }
