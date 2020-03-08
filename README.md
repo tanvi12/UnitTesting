@@ -21,8 +21,8 @@
 
 
 # Added test cases
-![Screenshot](ScreenShot7.png)
+![Screenshot](Screenshot7.png)
 
 
 # Test case result
-![Screenshot](ScreenShot8.png)
+![Screenshot](Screenshot8.png)
