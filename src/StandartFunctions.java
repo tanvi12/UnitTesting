@@ -15,14 +15,14 @@ class StandartFunctions {
 	}
 	
 	@Test
-	void Tan(){
+	void Tan() throws Exception{
 		assertEquals(1,StandardFunctions.TrigonometricFunctions.Tan(45));
 	}
 	
 	
 	@Test
 	void radiansToDegrees(){
-		assertSame(1,StandardFunctions.TrigonometricFunctions.radiansToDegrees(57.29));
+		assertSame(1,StandardFunctions.TrigonometricFunctions.degressToRadians(57.29));
 	}
 
 }

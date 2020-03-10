@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efa19bcf-fbb2-4f28-a1a9-7895afb183b1" name="Default Changelist" comment="" />
+    <list default="true" id="efa19bcf-fbb2-4f28-a1a9-7895afb183b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScreenShot5.png" beforeDir="false" afterPath="$PROJECT_DIR$/ScreenShot5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScreenShot6.png" beforeDir="false" afterPath="$PROJECT_DIR$/ScreenShot6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/StandardFunctions$TrigonometricFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/StandardFunctions$TrigonometricFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/StandardFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/StandardFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/StandartFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/StandartFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StandardFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StandardFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StandartFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StandartFunctions.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,15 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StandardFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="83" column="45" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
-              <folding>
-                <element signature="docComment;method#Sin#0;class#TrigonometricFunctions#0;class#StandardFunctions#0" />
-                <element signature="method#main#0;class#StandardFunctions#0" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -29,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StandartFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
+            <state relative-caret-position="176">
               <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -37,20 +43,23 @@
                 <element signature="e#204#205#0" expanded="true" />
                 <element signature="e#226#227#0" expanded="true" />
                 <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="181">
+              <caret line="22" column="112" selection-start-line="22" selection-start-column="112" selection-end-line="22" selection-end-column="112" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScreenShot5.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -91,8 +100,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/StandardFunctions.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -175,7 +184,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18287373" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.18287373" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -277,22 +286,15 @@
     <entry file="file://$PROJECT_DIR$/Screenshot2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ScreenShot5.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ScreenShot6.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ScreenShot5.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StandartFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
+        <state relative-caret-position="176">
           <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -300,20 +302,21 @@
             <element signature="e#204#205#0" expanded="true" />
             <element signature="e#226#227#0" expanded="true" />
             <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StandardFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="83" column="45" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
-          <folding>
-            <element signature="docComment;method#Sin#0;class#TrigonometricFunctions#0;class#StandardFunctions#0" />
-            <element signature="method#main#0;class#StandardFunctions#0" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="22" column="112" selection-start-line="22" selection-start-column="112" selection-end-line="22" selection-end-column="112" />
         </state>
       </provider>
     </entry>
