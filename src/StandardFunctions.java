@@ -17,7 +17,7 @@ public class StandardFunctions {
 		 *
 		 ******************************************************************************/
 
-		 static double Sin(double x) {
+		static double Sin(double x) {
 
 			double PI = 3.142;
 			// convert x to an angle between -2 PI and 2 PI
@@ -51,29 +51,29 @@ public class StandardFunctions {
 		 *
 		 ******************************************************************************/
 
-		 static double Cos(double x) {
-			 double PI = 3.142;
-			 x = x * (PI / 180.0);  
-		      
-		        double res = 1; 
-		        double sign = 1, fact = 1,  
-		                         pow = 1; 
-		        for (int i = 1; i < 5; i++) 
-		        { 
-		            sign = sign * -1; 
-		            fact = fact * (2 * i - 1) *  
-		                               (2 * i); 
-		            pow = pow * x * x; 
-		            res = res + sign * pow / fact; 
-		        } 
-		      
-		        return res;  
-			
+		static double Cos(double x) {
+			double PI = 3.142;
+			x = x * (PI / 180.0);
+
+			double res = 1;
+			double sign = 1, fact = 1,
+					pow = 1;
+			for (int i = 1; i < 55; i++)
+			{
+				sign = sign * -1;
+				fact = fact * (2 * i - 1) *
+						(2 * i);
+				pow = pow * x * x;
+				res = res + sign * pow / fact;
+			}
+
+			return res;
+
 		}
 
 		/**
 		 * Find number factorial
-		 * 
+		 *
 		 * @param num given number
 		 * @return factorial of given number
 		 */
@@ -103,44 +103,36 @@ public class StandardFunctions {
 		 *
 		 *
 		 ******************************************************************************/
-		static double Tan(int x) {
-			// To store value of the expansion
-			double sum = 0;
+		static double Tan(double x) throws Exception{
 
-			for (int i = 1; i <= 6; i += 1) {
+			double output =  TrigonometricFunctions.Sin(StandardFunctions.TrigonometricFunctions.degressToRadians(x))/TrigonometricFunctions.Cos(x);
 
-				// This loops here calculate Bernoulli number
-				// which is further used to get the coefficient
-				// in the expansion of tan x
-				double B = 0;
-				int Bn = 2 * i;
-				for (int k = 0; k <= Bn; k++) {
-					double temp = 0;
-					for (int r = 0; r <= k; r++)
-						temp = temp + Math.pow(-1, r) * fac(k) * Math.pow(r, Bn) / (fac(r) * fac(k - r));
+			if(output>-1 && output<1) {
+				return output;
+			}else{
 
-					B = B + temp / ((double) (k + 1));
-				}
-				sum = sum + Math.pow(-4, i) * (1 - Math.pow(4, i)) * B * Math.pow(x, 2 * i - 1) / fac(2 * i);
+				//Garbage value
+				throw new Exception("Error");
 			}
-
-			// Print the value of expansion
-			return sum;
 		}
+
+
+
 
 
 		/**
-		 * ConvertRadiansToDegrees
-		 * @param radins value in Radians
-		 * @return value in degree
+		 * ConvertDegressToRadians
+		 * @param radins value in Degrees
+		 * @return value in Radians
 		 */
-		static double radiansToDegrees(double radins) {
+		static double degressToRadians(double radins) {
 			double PI = 3.142;
-			return radins * (180/PI);
+			return radins * (PI/180);
 		}
 	}
+
 	public static void main(String args[]) {
-		
+
 		System.out.println("Sin values in radinas");
 		System.out.println("Sin(30) "+ TrigonometricFunctions.Sin(30));
 		System.out.println("Sin(90) "+ TrigonometricFunctions.Sin(90));
@@ -148,17 +140,17 @@ public class StandardFunctions {
 		System.out.println("Sin(270) "+ TrigonometricFunctions.Sin(270));
 		System.out.println("Sin(360)"+ TrigonometricFunctions.Sin(360));
 		System.out.println();
-		
+
 		System.out.println("Sin values in degree");
-		System.out.println("Sin(30) "+ TrigonometricFunctions.radiansToDegrees(TrigonometricFunctions.Sin(30)));
-		System.out.println("Sin(90) "+ TrigonometricFunctions.radiansToDegrees(TrigonometricFunctions.Sin(90)));
-		System.out.println("Sin(180) "+ TrigonometricFunctions.radiansToDegrees(TrigonometricFunctions.Sin(180)));
-		System.out.println("Sin(270) "+ TrigonometricFunctions.radiansToDegrees(TrigonometricFunctions.Sin(270)));
-		System.out.println("Sin(360)"+ TrigonometricFunctions.radiansToDegrees(TrigonometricFunctions.Sin(360)));
+		System.out.println("Sin(30) "+ TrigonometricFunctions.Sin(TrigonometricFunctions.degressToRadians(30)));
+		System.out.println("Sin(90) "+ TrigonometricFunctions.Sin(TrigonometricFunctions.degressToRadians(90)));
+		System.out.println("Sin(180) "+ TrigonometricFunctions.Sin(TrigonometricFunctions.degressToRadians(180)));
+		System.out.println("Sin(270) "+TrigonometricFunctions.Sin( TrigonometricFunctions.degressToRadians(270)));
+		System.out.println("Sin(360)"+ TrigonometricFunctions.Sin(TrigonometricFunctions.degressToRadians(360)));
 		System.out.println();
-		
-		
-		
+
+
+
 		System.out.println("Cos values in radinas");
 		System.out.println("Cos(30) "+ TrigonometricFunctions.Cos(30));
 		System.out.println("Cos(90) "+ TrigonometricFunctions.Cos(90));
@@ -166,16 +158,44 @@ public class StandardFunctions {
 		System.out.println("Cos(270) "+ TrigonometricFunctions.Cos(270));
 		System.out.println("Cos(360)"+ TrigonometricFunctions.Cos(360));
 		System.out.println();
-		
+
 		System.out.println("Tan values in radinas");
-		System.out.println("Tan(30) "+ TrigonometricFunctions.Tan(30));
-		System.out.println("Tan(90) "+ TrigonometricFunctions.Tan(90));
-		System.out.println("Tan(180) "+ TrigonometricFunctions.Tan(180));
-		System.out.println("Tan(270) "+ TrigonometricFunctions.Tan(270));
-		System.out.println("Tan(360)"+ TrigonometricFunctions.Tan(360));
+		try {
+			System.out.println("Tan(30) "+ TrigonometricFunctions.Tan(30)+" "+Math.tan(TrigonometricFunctions.degressToRadians(30)));
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			System.out.println("Tan(90) "+ TrigonometricFunctions.Tan(90)+" ");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			System.out.println("Tan(180) "+ TrigonometricFunctions.Tan(180));
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		try {
+			System.out.println("Tan(270) "+ TrigonometricFunctions.Tan(270));
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+
+		try {
+			System.out.println("Tan(360)"+ TrigonometricFunctions.Tan(360));
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		System.out.println();
-		
-	
+
+
 	}
 
 }

@@ -30,7 +30,7 @@ class StandartFunctions {
 	 * Compare Math and Taylor series output
 	 */
 	@Test
-	void Tan(){
+	void Tan() throws Exception{
 		assertEquals(Math.tan(30),StandardFunctions.TrigonometricFunctions.Tan(30),0.05);
 		assertEquals(Math.tan(90),StandardFunctions.TrigonometricFunctions.Tan(90),0.05);
 		assertEquals(Math.tan(180),StandardFunctions.TrigonometricFunctions.Tan(180),0.05);
@@ -42,8 +42,8 @@ class StandartFunctions {
 	 * Compare radians to Degrees conversion
 	 */
 	@Test
-	void radiansToDegrees(){
-		assertEquals(Math.toDegrees(57.29),StandardFunctions.TrigonometricFunctions.radiansToDegrees(57.29),0.05);
+	void radiansToDegrees() throws Exception{
+		assertEquals(Math.toDegrees(57.29),StandardFunctions.TrigonometricFunctions.degressToRadians(57.29),0.05);
 	}
 
 }
