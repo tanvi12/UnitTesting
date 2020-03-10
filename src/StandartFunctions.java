@@ -9,7 +9,7 @@ import org.junit.runners.JUnit4;
 class StandartFunctions {
 
 	/**
-	 * Compare Math and Taylor series output
+	 * Compare Math and Taylor series output for Sin function and compare with Math function
 	 */
 	@Test
 	void Sin() {
@@ -20,7 +20,7 @@ class StandartFunctions {
 	}
 	
 	/**
-	 * Check function output not null
+	 * Check function output does not return null value
 	 */
 	@Test
 	void SinNotNull(){
@@ -31,7 +31,7 @@ class StandartFunctions {
 	}
 	
 	/**
-	 * Check function output not null
+	 * Check function output does not return null
 	 */
 	@Test
 	void CosNotNull(){
@@ -43,7 +43,7 @@ class StandartFunctions {
 	
 	
 	/**
-	 * Compare Math and Taylor series output
+	 * Compare Math and Taylor series output for cos function and compare with Math function
 	 */
 	@Test
 	void Cos(){
@@ -54,7 +54,7 @@ class StandartFunctions {
 	}
 	
 	/**
-	 * Compare Math and Taylor series output
+	 * Compare Math and Taylor series output for Tan function and compare with Math function
 	 */
 	@Test
 	void Tan() throws Exception{
@@ -66,27 +66,26 @@ class StandartFunctions {
 	
 	
 	/**
-	 * Compare Math and Taylor series output
+	 * Compare Math and Taylor series output for Tan function for Invalid input check Exception
 	 */
 	
 	void TanInvalidInputs() throws Exception{
-		
 		StandardFunctions.TrigonometricFunctions.Tan(270);
 		StandardFunctions.TrigonometricFunctions.Tan(90);
 	}
 	
 	/**
-	 * Check function output not null
+	 * Check function output not null output for Tan function
 	 */
 	@Test
-	void TanNotNull() throws Exception{
+	void TanNotNull() throws Exception {
 		assertNotNull(StandardFunctions.TrigonometricFunctions.Tan(30));
 		assertNotNull(StandardFunctions.TrigonometricFunctions.Tan(180));
 		assertNotNull(StandardFunctions.TrigonometricFunctions.Tan(360));
 	}
 	
 	/**
-	 * Compare radians to Degrees conversion
+	 * Compare radians to Degrees conversion with Math function
 	 */
 	@Test
 	void radiansToDegrees(){
